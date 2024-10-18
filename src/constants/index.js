@@ -2,7 +2,22 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-
+// import {
+//   javascript,
+//   typescript,
+//   html,
+//   css,
+//   reactjs,
+//   redux,
+//   tailwind,
+//   nodejs,
+//   mongodb,
+//   git,
+//   figma,
+//   docker,
+//   threejs,
+// } from "../assets/tech";
+// import {css }from "../../src/assets/tech"
 export const HERO_CONTENT = `Highly driven and results-focused React developer with 2 years of hands-on experience in front-end development,
 specializing in building interactive, user-centric web applications. Proven expertise in designing, developing, and
 maintaining high-performance, scalable React components. Passionate about delivering seamless user experiences and
@@ -78,3 +93,58 @@ export const CONTACT = {
   phoneNo: "+91 7291844760",
   email: "siddhartray47@gmail.com",
 };
+
+// export const technologies = [
+//   // {
+//   //   name: "HTML 5",
+//   //   icon: html,
+//   // },
+//   // {
+//   //   name: "CSS 3",
+//   //   icon: css,
+//   // },
+//   // {
+//   //   name: "JavaScript",
+//   //   icon: javascript,
+//   // },
+//   // {
+//   //   name: "TypeScript",
+//   //   icon: typescript,
+//   // },
+//   // {
+//   //   name: "React JS",
+//   //   icon: reactjs,
+//   // },
+//   // {
+//   //   name: "Redux Toolkit",
+//   //   icon: redux,
+//   // },
+//   // {
+//   //   name: "Tailwind CSS",
+//   //   icon: tailwind,
+//   // },
+//   // {
+//   //   name: "Node JS",
+//   //   icon: nodejs,
+//   // },
+//   // {
+//   //   name: "MongoDB",
+//   //   icon: mongodb,
+//   // },
+//   // {
+//   //   name: "Three JS",
+//   //   icon: threejs,
+//   // },
+//   // {
+//   //   name: "git",
+//   //   icon: git,
+//   // },
+//   // {
+//   //   name: "figma",
+//   //   icon: figma,
+//   // },
+//   // {
+//   //   name: "docker",
+//   //   icon: docker,
+//   // },
+// ];

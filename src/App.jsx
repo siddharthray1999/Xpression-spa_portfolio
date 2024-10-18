@@ -4,7 +4,18 @@ import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
+
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 import Technologies from "./components/Technologies";
+
+import PhotoCube from "./components/Photocube";
+import image1 from "./assets/tech/css.png";
+import image2 from "./assets/tech/html.png";
+import image3 from "./assets/tech/figma.png";
+import image4 from "./assets/tech/javascript.png";
+import image5 from "./assets/tech/reactjs.png";
+import image6 from "./assets/tech/tailwind.png";
 
 function App() {
   return (
@@ -19,6 +30,19 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <div style={{ height: "100vh" }}>
+          <Canvas>
+            <ambientLight intensity={0.5} />
+            <directionalLight position={[5, 5, 5]} />
+
+            <PhotoCube
+              images={[image1, image2, image3, image4, image5, image6]}
+            />
+
+            <OrbitControls enableZoom={false} />
+          </Canvas>
+        </div>
+
         <Technologies />
         <Experience />
         <Project />
